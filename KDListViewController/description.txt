@@ -1,0 +1,3 @@
+KDListViewController inherits KDViewController.
+
+It let you create easily lists with custom items. By custom we mean any view that is KDView related.
