@@ -1,0 +1,7 @@
+KDView inherits KDObject. It's the basic class for all gui classes in KD Framework.
+
+It basically creates a DOM that can be modified programatically. It's the base class of all KD* related view.
+Each of the views can interact with each other, that means they are capable of sending and receiving events from each other.
+You can therefore delegate certain task to certaing views.
+The interaction is based on Delegation pattern.
+The whole concept about this delegation pattern is done via the KDEventEmitter.
